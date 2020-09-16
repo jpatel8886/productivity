@@ -1,0 +1,59 @@
+.EventListItem {
+    border-left: 4px solid rgb(60, 193, 255);
+    padding: 0 0 0 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    list-style: none;
+    text-align: justify;
+}
+
+.titleRow {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(3, 185, 155);
+    justify-content: space-between;
+}
+
+.bottomRow {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.time {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    width: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.deleteEvent {
+    padding: 5.5px 10px 4.5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(3, 60, 87);
+    background-color: rgb(247, 95, 84);
+}
+
+.save {
+    padding: 4px 9px 4px 9px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(3, 60, 87);
+    background-color: rgb(95, 221, 243);
+}
+
+.deleteEvent:hover {
+    background-color: rgb(248, 136, 71);
+}
+
+.save:hover {
+    background-color: rgb(33, 219, 179);
+}

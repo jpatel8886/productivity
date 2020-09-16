@@ -1,0 +1,27 @@
+.calBtn,
+.jumpBtn {
+	width: 50%;
+	border: none;
+	margin-bottom: 35px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color: rgb(3, 60, 87);
+	background-color: rgb(209, 155, 253);
+	padding: 10px 10px 10px 10px;
+}
+
+.calBtn {
+	padding-top: 12px;
+	border-right: 2px solid rgb(155, 55, 236);
+}
+
+.jumpBtn {
+	border-left: 2px solid rgb(155, 55, 236);
+}
+
+.calBtn:hover,
+.jumpBtn:hover {
+	background-color: rgb(241, 104, 241);
+}

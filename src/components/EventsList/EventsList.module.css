@@ -1,0 +1,13 @@
+.EventsList {
+	width: 350px;
+    letter-spacing: 2px;
+    padding-bottom: 12px;
+    color: rgb(5, 70, 114);
+}
+
+.EventsList h1 {
+    margin: 0;
+    padding: 22px 0 22px 0;
+    background-color: rgb(246, 235, 255);
+}
+

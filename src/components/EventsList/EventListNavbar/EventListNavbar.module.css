@@ -1,0 +1,30 @@
+.EventsListNavbar {
+    background-color: rgb(246, 235, 255);
+}
+
+.showEventsBtn,
+.addEventBtn {
+	width: 50%;
+	border: none;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color: rgb(3, 60, 87);
+	background-color: rgb(209, 155, 253);
+	padding: 12px 10px 10px 10px;
+}
+
+.showEventsBtn {
+	border-right: 2px solid rgb(155, 55, 236);
+}
+
+.addEventBtn {
+	border-left: 2px solid rgb(155, 55, 236);
+}
+
+.showEventsBtn:hover,
+.addEventBtn:hover {
+	background-color: rgb(241, 104, 241);
+}

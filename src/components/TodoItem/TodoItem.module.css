@@ -1,0 +1,39 @@
+.item {
+    width: 100%;
+    margin-bottom: 10px; 
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    background-color: #adadad;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.due {
+    font-weight: bold;
+}
+
+.deleteBtn {
+    margin: none;
+}
+   
+.redCheckbox {
+    width: 50px;
+    background-color: #fc7979;
+    border: none;
+}
+
+.greenCheckbox {
+    width: 50px;
+    background-color: #79fc7f;
+    border: none;
+}
